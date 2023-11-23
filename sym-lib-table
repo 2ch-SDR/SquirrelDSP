@@ -1,0 +1,13 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "TP4056")(type "KiCad")(uri "${KIPRJMOD}/Libs/TP4056/TP4056.kicad_sym")(options "")(descr ""))
+  (lib (name "SN74AHCT1G32DBVR")(type "KiCad")(uri "${KIPRJMOD}/Libs/SN74AHCT1G32DBVR/SN74AHCT1G32DBVR.kicad_sym")(options "")(descr ""))
+  (lib (name "Custom_Symbols")(type "KiCad")(uri "${KIPRJMOD}/Custom_Symbols.kicad_sym")(options "")(descr ""))
+  (lib (name "2023-11-12_12-40-02")(type "KiCad")(uri "${KIPRJMOD}/Libs/PIC16F18857/2023-11-12_12-40-02.kicad_sym")(options "")(descr ""))
+  (lib (name "2023-11-12_15-15-52")(type "KiCad")(uri "${KIPRJMOD}/Libs/74LVC595APW/2023-11-12_15-15-52.kicad_sym")(options "")(descr ""))
+  (lib (name "2023-11-12_15-41-13")(type "KiCad")(uri "${KIPRJMOD}/Libs/TS4890IST/2023-11-12_15-41-13.kicad_sym")(options "")(descr ""))
+  (lib (name "ASVTX-09-13.00MHZ-T")(type "KiCad")(uri "${KIPRJMOD}/Libs/ASVTX-09/ASVTX-09-13.00MHZ-T.kicad_sym")(options "")(descr ""))
+  (lib (name "2023-11-14_10-49-56")(type "KiCad")(uri "${KIPRJMOD}/Libs/TS974IPT/2023-11-14_10-49-56.kicad_sym")(options "")(descr ""))
+  (lib (name "2023-11-14_14-36-28")(type "KiCad")(uri "${KIPRJMOD}/Libs/ADAU1761BCPZ/2023-11-14_14-36-28.kicad_sym")(options "")(descr ""))
+  (lib (name "2023-11-14_15-52-01")(type "KiCad")(uri "${KIPRJMOD}/Libs/SN74AHCT1G04DBVR/2023-11-14_15-52-01.kicad_sym")(options "")(descr ""))
+)

@@ -1,0 +1,140 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 3778dfb3-366c-4539-95bf-a615d9b90019)
+
+  (paper "A4")
+
+  (title_block
+    (title "Belka DSP")
+    (date "2023-11-16")
+    (rev "0.0.2")
+    (company "2ch")
+  )
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 97.155 17.78) (size 24.765 20.32) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 1ea12ac2-8289-4e40-8bb5-a48f15d9e905)
+    (property "Sheetname" "Connectors" (at 97.155 17.0684 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "connectors.kicad_sch" (at 97.155 38.6846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "BelkaDSP"
+        (path "/3778dfb3-366c-4539-95bf-a615d9b90019" (page "4"))
+      )
+    )
+  )
+
+  (sheet (at 181.61 17.78) (size 69.215 21.59) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 4fbde312-cccc-4015-9891-57fcf5abbd0f)
+    (property "Sheetname" "DSP & Audio" (at 181.61 17.0684 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "dsp_audio.kicad_sch" (at 181.61 39.9546 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "BelkaDSP"
+        (path "/3778dfb3-366c-4539-95bf-a615d9b90019" (page "8"))
+      )
+    )
+  )
+
+  (sheet (at 19.05 50.165) (size 136.525 52.705) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 58e2e4a1-5bc9-495a-91c9-f88075ed7b7c)
+    (property "Sheetname" "Radio (analog)" (at 19.05 49.4534 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "radio_analog.kicad_sch" (at 19.05 103.4546 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "BelkaDSP"
+        (path "/3778dfb3-366c-4539-95bf-a615d9b90019" (page "6"))
+      )
+    )
+  )
+
+  (sheet (at 19.05 17.78) (size 34.29 20.32) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid a076f028-d552-40fc-9b7a-7306c64a8d21)
+    (property "Sheetname" "Power Supply" (at 19.05 17.0684 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "power_supply.kicad_sch" (at 19.05 38.6846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "BelkaDSP"
+        (path "/3778dfb3-366c-4539-95bf-a615d9b90019" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 130.81 17.78) (size 24.13 20.32) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid d58efe17-9014-4019-bc83-46268f424663)
+    (property "Sheetname" "Inputs" (at 130.81 17.0684 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "inputs.kicad_sch" (at 130.81 38.6846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "BelkaDSP"
+        (path "/3778dfb3-366c-4539-95bf-a615d9b90019" (page "5"))
+      )
+    )
+  )
+
+  (sheet (at 19.05 109.22) (size 136.525 53.975) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid dce69abf-73dc-4b60-aab8-fb20beaf647d)
+    (property "Sheetname" "Radio (digital)" (at 19.05 108.5084 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "radio_digital.kicad_sch" (at 19.05 163.7796 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "BelkaDSP"
+        (path "/3778dfb3-366c-4539-95bf-a615d9b90019" (page "7"))
+      )
+    )
+  )
+
+  (sheet (at 59.69 17.78) (size 30.48 20.32) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid f818197d-1af4-4f1c-a524-526c9b8a0c1b)
+    (property "Sheetname" "MCU" (at 59.69 17.0684 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "mcu.kicad_sch" (at 59.69 38.6846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "BelkaDSP"
+        (path "/3778dfb3-366c-4539-95bf-a615d9b90019" (page "3"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
